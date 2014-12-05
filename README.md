@@ -1,7 +1,7 @@
 proxy-dl
 ========
 
-proxy-dl is a CLI program that proxies your downloads with wget, through Tor. 
+proxy-dl is a CLI program that proxies your downloads with wget, through Tor. To avoid any DNS leaks, DNS queries are resolved with tor-resolve.
 
 Requirements:
 -Tor installed; running
